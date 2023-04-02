@@ -1,7 +1,7 @@
 Other players writeup
 > https://kir0sploit.github.io/2023/02/cybersphere-writeup/
 
-Command and Techniques:
+# Command and Techniques:
 
 nmap -sC -p- -sV $IP -oN nmap.txt –vv
 ftp: put reverse shell
