@@ -8,5 +8,5 @@
 check for sudo user
 - id
 - sudo su
-- 
+
 root shell gained
