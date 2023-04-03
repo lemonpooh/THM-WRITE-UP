@@ -7,7 +7,7 @@ Code: https://pastebin.com/V75YLbQj
 - run nc 1st
 - execute the browser
 - we got user shell
-- 
+
 check for sudo user
 - id
 - sudo su
