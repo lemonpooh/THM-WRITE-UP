@@ -4,6 +4,7 @@ Other players writeup
 # Command and Techniques:
 
 nmap -sC -p- -sV $IP -oN nmap.txt –vv
+
 ftp: put reverse shell
 > php PentestMonkey
 > put the openvpn ip
