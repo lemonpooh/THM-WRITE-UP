@@ -30,11 +30,17 @@ goto /home we know that user is jack.
 - use the hydra to bruteforce the ssh password
 - after knowing the password, su jack
 - execute interactive command:
+
 	python2 -c 'import pty;pty.spawn("/bin/bash")'
+	
 	export TERM=xterm
+	
 	press CTRL + Z
+	
 	stty raw -echo;fg
+	
 - open new terminal: run another remote command
+
 boom! get the jack shell
 
 or
