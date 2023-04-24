@@ -4,8 +4,8 @@ Room: https://tryhackme.com/room/cyberspherules
 
 Code: https://pastebin.com/V75YLbQj
 - rename it to .phtml
-- run nc 1st
-- execute the browser
+- run nc 1st: nc -nlvp 8899 (at attacker machine)
+- execute the browser (victims)
 - we got user shell
 
 check for sudo user
