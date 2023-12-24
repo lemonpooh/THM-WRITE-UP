@@ -1,4 +1,5 @@
-![image](https://github.com/lemonpooh/THM-WRITE-UP/assets/59368650/b50315fe-6839-4f98-b00f-2165665eb5c5)
+![image](https://github.com/lemonpooh/THM-WRITE-UP/assets/59368650/0a9839c8-259d-43c0-961d-4da5227ac800)
+
 After getting non-interactive shell, we need to change it to interactive shell by inserting bellowing command on the victim shell.
 
 step 1. **export TERM=xterm**
