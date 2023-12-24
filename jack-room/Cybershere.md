@@ -31,11 +31,10 @@ goto /home we know that user is jack.
 - after knowing the password, su jack
 - execute interactive command:
 
-	python2 -c 'import pty;pty.spawn("/bin/bash")'
-	
-	export TERM=xterm
-	
-	press CTRL + Z
+
+	step 1. **export TERM=xterm**
+	step 2. **python2 -c 'import pty;pty.spawn("/bin/bash")'**
+	step 3. **press CTRL + Z** 不一定需要
 	
 	stty raw -echo;fg
 	
